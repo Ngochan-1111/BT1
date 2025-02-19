@@ -96,7 +96,7 @@ public class Main {
         student2.Scores(7.0, 6.0, 5.0, 7.5, 8.0);
 
         Student[] studentsClass1 = {student1, student2};
-        Student[] studentsClass2 = {}; // Empty array for Class 2
+        Student[] studentsClass2 = {}; 
 
         Class class1 = new Class("Class 1", studentsClass1);
         Class class2 = new Class("Class 2", studentsClass2);
@@ -105,7 +105,7 @@ public class Main {
         System.out.println("Enter class code (Class 1 or Class 2): ");
         String classCode = scanner.nextLine();
 
-        // Displaying student list and rank information based on input
+        
         if (classCode.equals("Class 1")) {
             class1.displayStudent();
         } else if (classCode.equals("Class 2")) {
