@@ -10,8 +10,8 @@ public class Class {
         this.classCode = classCode;
     }
 
-    public void addStudent(String firstName, String lastName, String birthDate, String address, String className, double gpa) {
-        Student newStudent = new Student(firstName, lastName, birthDate, address, className, gpa);
+    public void addStudent(String firstName, String lastName, String birthDate, String address, String className, double oop, double qlyDuAn, double machineLearing, double csdl, double android) {
+        Student newStudent = new Student(firstName, lastName, birthDate, address, className, oop, qlyDuAn, machineLearing, csdl, android);
         students.add(newStudent);
     }
 
